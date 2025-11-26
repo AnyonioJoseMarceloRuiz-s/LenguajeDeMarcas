@@ -1,3 +1,7 @@
+.body{
+    background-image: url(fondobody.jpg);
+    background-color: lightgray;
+}
 .bienvenida{background-color: orange;
     color: white;
     display: flex;
@@ -9,31 +13,75 @@
 .tabla{
     background-color: black;
     color: white;
-    display: flex;
     align-items:center;
     margin-right: 5px;
     margin-left: 5px;
-    height: 50px;
+    height: 25px;
+    width: 99.45%
+}
+.tabladentro{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border-color: #000000;
+    text-shadow: 3px 3px 5px #FF0000;
 }
 .título{
+    background-image: url(https://cdn.pixabay.com/photo/2015/05/10/16/15/food-761041_1280.jpg);
     background-color: darkblue;
     color: beige;
     padding: 40px;
     margin-left: 5px;
-    margin-right: 5px;
     height: 100px;
+    width: 133%;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 10px 10px 8px #000000;
+}
+.platos{background-image: url(plato.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:blueviolet;
+    color: beige;
+    padding: 210px;
+    margin-left: 5px;
+    height: 300px;
+    width: 92.9%;
+}
+.juntar{
+    float: left;
+}
+.datos{background-color:brown;
+    color: beige;
+    margin-right: 5px;
+    height: 900px;
+    width: 35%;
+    float: right;
+}
+.restaurantepordentroo{
+    width: 100%;
+    height: 50%;
+}
+.restaurantepuerta{
+    width: 100%;
+    height: 49.7%;
 }
 .carta{background-color:blueviolet;
     color: beige;
     padding: 40px;
     margin-left: 5px;
     margin-right: 5px;
-    height: 300px;
+    height: 700px;
+    width: 65%;
+    display: flex;
 }
-.datos{background-color:lime;
-    color: beige;
-    padding: 40px;
+.otro{
+    background-color: teal;
+    color: white;
+    padding: 10px;
     margin-left: 5px;
     margin-right: 5px;
     height: 50px;
+    width: 30%;
+    display: flex;
 }
