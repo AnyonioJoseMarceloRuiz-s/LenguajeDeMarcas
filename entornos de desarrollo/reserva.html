@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Trujillo</title>
+    <meta name="keywords" content="html, ejercicio, ejercicio1, ejemplo">
+    <meta name="author" content="Antonio José">
+    <meta name="application-name" content="Plantilla.html">
+    <meta name="generator" content="VSCode">
+    <link rel="stylesheet" href="páginaweb.css">
+</head>
+<body style="background-color: aquamarine;">
+    <div class="bienvenida">
+            ¡Bienvenido a Restaurante Trujillo!
+    </div>
+    <div class="tabla">
+        <table border="1" class="tabladentro">
+            <tr>
+                <td><b><a href="páginaweb.html" style="text-decoration: none; color: white;">Inicio</a></b></td>
+                <td><b><a href="carta.html" style="text-decoration: none; color: white;">Carta</a></b></td>
+                <td><b><a href="contacto.html" style="text-decoration: none; color: white;">Contacto</a></b></td>
+                <td><b><a href="reserva.html" style="text-decoration: none; color: white;">Reserva</a></b></td>
+            </tr>
+        </table>
+    </div>
+    <div class="reserva">
+        <form>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            Personas
+            <select name="personas" id="personas">
+                <option value="persona1">1</option>
+                <option value="persona2">2</option>
+                <option value="persona3">3</option>
+                <option value="persona4">4</option>
+                <option value="persona5">5</option>
+                <option value="persona6">6</option>
+                <option value="persona7">7</option>
+                <option value="persona8">8</option>
+                <option value="persona9">9</option>
+                <option value="persona10">10</option>
+            </select><br>
+            Hora de reserva<br>
+            <input type="time" id="hora" name="hora"><br>
+            Fecha de reserva<br>
+            <input type="date" id="fecha" name="fecha"><br>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="15" cols="50"></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
