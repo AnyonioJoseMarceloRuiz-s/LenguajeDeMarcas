@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hormulario Exámen HTML5</title>
+    <meta name="description" content="Esto es un ejercicio">
+    <meta name="keywords" content="html, ejercicio, ejercicio1, ejemplo">
+    <meta name="author" content="Antonio José">
+    <meta name="application-name" content="Plantilla.html">
+    <meta name="generator" content="VSCode">
+</head>
+<body>
+    <form method="get">
+        <fieldset>
+            <legend>Rellenar</legend>
+        <label><select name="sexo" id="sexo">
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+        </select><br></label>
+        <label>Elija un color:
+        <input type="color" name="color" value="#0000"><br></label>
+        <label>Elija una fecha:
+        <input type="date" name="fecha"><br></label>
+        <label><input type="radio" name="lenguaje" value="lenguajejava">Java
+        <input type="radio" name="lenguaje" value="lenguajepython">Python
+        <input type="radio" name="lenguaje" value="lenguajehtml">HTML
+        <input type="radio" name="lenguaje" value="lenguajevisual_basic">Visual Basic
+        <input type="radio" name="lenguaje" value="lenguajecss">CSS<br></label>
+        <label><input type="checkbox" name="sexo" value="sexohombre">Hombre
+        <input type="checkbox" name="sexo" value="sexomujer">Mujer<br></label>
+        <label>Elija un fichero:
+        <input type="file" name="fichero"><br></label>
+        <label><textarea name="comentarios" rows="8" cols="60" placeholder="Por favor, escriba aquí"></textarea><br></label>
+        <label>Instituto<input type="text" name="instituto"><br>
+        Estudios Elegidos<input type="text" name="estudios"><br>
+        Nombre<input type="text" name="nombre" value="Nombre"><br>
+        Apellidos<input type="text" name="apellidos"><br>
+        Email<input type="email" name="email"><br></label>
+        </fieldset>
+        <fieldset>
+            <legend>Rellene las siguientes opciones</legend>
+        <label><input type="checkbox" name="sistema" value="sistemawindows">Windows
+        <input type="checkbox" name="sistema" value="sistemamac">Mac
+        <input type="checkbox" name="sistema" value="sistemalinux">Linux</label>
+        <label>Elija una hora:
+        <input type="time" name="hora"><br>
+        <input type="radio" name="procesador" value="procesadoramd">AMD
+        <input type="radio" name="procesador" value="procesadorintel_i5">Intel i5
+        <input type="radio" name="procesador" value="procesadorintel_i7">Intel i7<br></label>
+        <label>Elija un fichero:
+        <input type="file" name="ficheros"><br></label>
+        </fieldset>
+        <label><input type="submit" value="Enviar Formulario" action="insertar_cv.html">
+        <input type="reset" value="Borrar los datos introducidos"></label>
+    </form>
+</body>
+</html>
