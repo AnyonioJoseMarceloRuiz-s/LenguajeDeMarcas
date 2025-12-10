@@ -1,6 +1,8 @@
+
 .body{
     background-image: url(fondobody.jpg);
     background-color: lightgray;
+    max-width: auto;
 }
 .bienvenida{background-color: orange;
     color: white;
